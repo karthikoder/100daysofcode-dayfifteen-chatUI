@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHATTING app UI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div id="canvas">
+        <div id="msgbox1" class="msgbox">
+            <div id="chat1" class="chat">
+                <header>
+                        <i class="material-icons icon ">
+                                arrow_back
+                        </i>
+                    <div id="img1"></div>
+                    <h2>john</h2>
+                    <i class="material-icons icon s">
+                            call
+                            </i>
+                    <i class="material-icons icon s">
+                            video_call
+                            </i>
+                </header>
+                <div class="msgs" id="msgs1">
+                    <div id="seenmsg1">
+                        <i class="material-icons" id="v11">
+                        visibility_off
+                        </i>
+                        <i class="material-icons" id="v12">
+                            visibility
+                            </i></div>
+                </div>
+                <footer>
+                    <input type="text" name="" id="msginput1" placeholder="type a message..." value="">
+                    <div id="send1">
+                    <i class="material-icons" onclick="send1()">
+                            keyboard_arrow_right
+                            </i>
+                        </div>
+                </footer>
+            </div>
+        </div>
+        <div id="msgbox2" class="msgbox">
+            <div id="chat2" class="chat">
+                <header>
+                        <i class="material-icons icon">
+                                arrow_back
+                        </i>
+                    <div id="img2"></div>
+                    <h2>larah</h2>
+                    <i class="material-icons icon s">
+                            call
+                            </i>
+                    <i class="material-icons icon s">
+                            video_call
+                            </i>
+                 </header>
+                 <div class="msgs" id="msgs2">
+                    <div id="seenmsg2">
+                        <i class="material-icons" id="v21">
+                            visibility_off
+                            </i>
+                            <i class="material-icons" id="v22">
+                                visibility
+                                </i>
+                    </div>
+                 </div>
+                 <footer>
+                        <input type="text" name="" id="msginput2" placeholder="type a message..." value = ''>
+                        <div id="send2" onclick="send2()">
+                        <i class="material-icons">
+                                keyboard_arrow_right
+                                </i>
+                            </div>
+                    </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
